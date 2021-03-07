@@ -19,7 +19,6 @@ namespace Bank
 
         public bool Sacar(double valor) 
         {
-
             if (this.Saldo - valor < this.Credito * -1) {
                 Console.WriteLine("Saldo Insuficiente");
                 return false;
